@@ -1,0 +1,17 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+{% block content %}
+                <div>
+                    <form method="POST" action="/wynik">
+                         <input type="text" name="a"><br>
+                        <input type="text" name="b"><br>
+                         <input type="text" name="c"><br>
+                        <input type="submit" value="Oblicz">
+                    </form>
+                </div>
+{% endblock %}
+
+
+
